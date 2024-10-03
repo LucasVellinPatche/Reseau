@@ -1,4 +1,4 @@
-# I.Récolte d'informations
+# I. Récolte d'informations
 
 ### Rendu PowerShell:
 
@@ -53,4 +53,33 @@ Name    Enabled
 Domain     True
 Private    True
 Public     True
+```
+
+# II. ***PING !!***
+
+```powershell
+PS C:\Users\lucve> ping 10.33.72.214
+
+Envoi d’une requête 'Ping'  10.33.72.214 avec 32 octets de données :
+Réponse de 10.33.72.214 : octets=32 temps<1ms TTL=128
+Réponse de 10.33.72.214 : octets=32 temps=1 ms TTL=128
+Réponse de 10.33.72.214 : octets=32 temps<1ms TTL=128
+Réponse de 10.33.72.214 : octets=32 temps<1ms TTL=128
+
+Statistiques Ping pour 10.33.72.214:
+    Paquets : envoyés = 4, reçus = 4, perdus = 0 (perte 0%),
+Durée approximative des boucles en millisecondes :
+    Minimum = 0ms, Maximum = 1ms, Moyenne = 0ms
+PS C:\Users\lucve> ping 127.0.0.1
+
+Envoi d’une requête 'Ping'  127.0.0.1 avec 32 octets de données :
+Réponse de 127.0.0.1 : octets=32 temps<1ms TTL=128
+Réponse de 127.0.0.1 : octets=32 temps<1ms TTL=128
+Réponse de 127.0.0.1 : octets=32 temps<1ms TTL=128
+Réponse de 127.0.0.1 : octets=32 temps<1ms TTL=128
+
+Statistiques Ping pour 127.0.0.1:
+    Paquets : envoyés = 4, reçus = 4, perdus = 0 (perte 0%),
+Durée approximative des boucles en millisecondes :
+    Minimum = 0ms, Maximum = 0ms, Moyenne = 0ms
 ```
