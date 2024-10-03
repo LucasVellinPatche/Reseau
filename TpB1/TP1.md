@@ -1,8 +1,8 @@
 # I.Récolte d'informations
 
-Rendu PowerShell:
+### Rendu PowerShell:
 
-''PS C:\Users\lucve> ipconfig
+`PS C:\Users\lucve> ipconfig
 
 Configuration IP de Windows
 
@@ -39,4 +39,4 @@ Carte réseau sans fil Wi-Fi :
    Suffixe DNS propre à la connexion. . . :
    Adresse IPv4. . . . . . . . . . . . . .: 10.33.72.214
    Masque de sous-réseau. . . . . . . . . : 255.255.240.0
-   Passerelle par défaut. . . . . . . . . : 10.33.79.254''
+   Passerelle par défaut. . . . . . . . . : 10.33.79.254`
